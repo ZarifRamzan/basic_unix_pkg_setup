@@ -1,0 +1,2 @@
+# Configuration setting for the readline library
+"\ep": history-search-backward
