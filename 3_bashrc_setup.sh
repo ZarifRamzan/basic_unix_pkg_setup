@@ -2,5 +2,8 @@
 
 export DIR=$(pwd)
 
-cp ~/.bashrc ~/.bashrc.original
-meld $DIR/bashrc ~/.bashrc &
+cat >> ~/.bashrc
+cd() {
+    command cd "$@" && ls -alh
+}
+^C
