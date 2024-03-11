@@ -1,5 +1,4 @@
 #!/bin/bash 
-
 export DIR=$(pwd)
 
 cat >> ~/.bashrc
