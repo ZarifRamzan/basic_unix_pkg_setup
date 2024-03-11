@@ -1,8 +1,6 @@
 #!/bin/bash 
 export DIR=$(pwd)
 
-cat >> ~/.bashrc
-cd() {
+echo 'cd() {
     command cd "$@" && ls -alh
-}
-^C
+}' >> ~/.bashrc
